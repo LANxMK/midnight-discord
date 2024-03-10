@@ -91,6 +91,10 @@
 	background: unset;
 }
 
+.theme-dark .message__80c10.selected_fd9051, .theme-dark.mouse-mode.full-motion .message__80c10:hover {
+    background: var(--background-tertiary);
+}
+
 .custom-theme-background .withBackgroundOverride_b6a351 {
 	background-color: var(--background-tertiary) !important;
 }
