@@ -339,7 +339,7 @@ svg[fill='#593695'] {
 .searchResultsWrap__9f374 /* allow overflow */ {
 	overflow: visible;
 }
-.chatContent__5dca8 /* main chat */,
+.chatContent__5dca8::before /* main chat */,
 .membersWrap__90226::before /* member list */,
 .searchResultsWrap__9f374::before /* search results */,
 .profilePanel__12596::before /* dm profile */,
@@ -351,6 +351,10 @@ svg[fill='#593695'] {
 	width: 100%;
 	height: 48px;
 	border-radius: var(--roundness-xl) var(--roundness-xl) 0 0;
+}
+
+.chatContent__5dca8 {
+	background: var(--background-primary) !important;
 }
 .wrapper_bd2abe.minimum_ebf000 ~ .content__1a4fe .container__93316::before /* remove when in private call */ {
 	display: none;
