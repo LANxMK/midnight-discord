@@ -88,11 +88,15 @@
 
 /* Disable Custom Discord Theme Feature */
 .bg__12180, body, .appMount_fae9dd, .custom-theme-background .withBackgroundOverride_b6a351 {
-    background: unset;
+	background: unset;
 }
 
 .custom-theme-background .withBackgroundOverride_b6a351 {
 	background-color: var(--background-tertiary) !important;
+}
+
+.modeSelected__487d6 .link__95dc0, .modeSelected__487d6:hover .link__95dc0 {
+	background: var(--background-tertiary) !important;
 }
    
 /* modify colors */
