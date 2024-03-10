@@ -539,7 +539,10 @@ button.button_afdfd9 /* small buttons */,
 #app-mount .centerButton__3205b /* fix vc buttons */ {
 	border-radius: 50%;
 }
-
+/* Disable gulids custom theme */
+.custom-theme-background .scroller__3d071 {
+	background: unset !important;
+}
 /* separate guilds panel background */
 .guilds__2b93a {
 	background: var(--bg-4);
