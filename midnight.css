@@ -86,6 +86,15 @@
 	--icon-spin-transition: none;
 }
 
+/* Disable Custom Discord Theme Feature */
+.bg__12180, body, .appMount_fae9dd, .custom-theme-background .withBackgroundOverride_b6a351 {
+    background: unset;
+}
+
+.custom-theme-background .withBackgroundOverride_b6a351 {
+	background-color: var(--background-tertiary) !important;
+}
+   
 /* modify colors */
 #app-mount .container__590e2 /* channel list */,
 .privateChannels__93473 /* dms list */,
