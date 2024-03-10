@@ -339,7 +339,7 @@ svg[fill='#593695'] {
 .searchResultsWrap__9f374 /* allow overflow */ {
 	overflow: visible;
 }
-.chatContent__5dca8::before /* main chat */,
+.chatContent__5dca8 /* main chat */,
 .membersWrap__90226::before /* member list */,
 .searchResultsWrap__9f374::before /* search results */,
 .profilePanel__12596::before /* dm profile */,
