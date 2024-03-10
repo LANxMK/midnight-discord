@@ -541,7 +541,7 @@ button.button_afdfd9 /* small buttons */,
 }
 /* Disable gulids custom theme */
 .custom-theme-background .scroller__3d071 {
-	background: unset !important;
+    background: unset !important;
 }
 /* separate guilds panel background */
 .guilds__2b93a {
